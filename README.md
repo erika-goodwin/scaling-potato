@@ -12,15 +12,17 @@ Which are the keywords not in use?
 
 > c) strictfp and synchronized
 
-> d) const and goto
+> d) const and goto ✅
 
+    
+    
 ***
 #### Question 2
 Keywords are non-reserved word in java
 
-> true
-
-> false
+> true　
+    
+> false　✅
 
 ***
 #### Question 3
@@ -28,7 +30,7 @@ Which method is the entry point for Java programs?
 
 > a) void main (String [] args){} 
 
-> b) public static void main (String [] args){} 
+> b) public static void main (String [] args){} ✅
 
 > c) static void main (String [] args){} 
 
@@ -42,7 +44,7 @@ Data is stored in ............
 
 > b) Data
 
-> c) Variable
+> c) Variable　✅
 
 > d) Data Type
 
@@ -50,7 +52,7 @@ Data is stored in ............
 #### Question 5
 Datatypes impacts on memory allocation
 
-> True
+> True　✅
 
 > False
 
@@ -74,13 +76,13 @@ public class Test_Variable {
 
 > c) 10
 
-> d) 10 and java
+> d) 10 and java　✅
 
 ***
 #### Question 7
 Variable name is case-sensitive.
 
-> True
+> True ✅
 
 > False
 
@@ -90,7 +92,7 @@ Space is permitted in variable name.
 
 > True
 
-> False
+> False　✅
 
 ***
 #### Question 9
@@ -102,7 +104,7 @@ What is the range of short?
 
 > c) -32769 to 32768
 
-> d) -32768 to 32767
+> d) -32768 to 32767　✅
 
 ***
 #### Question 10
@@ -112,9 +114,9 @@ Which suffix is used while declaring a long data type?
 
 > b) B
 
-> c) L
+> c) L　✅
 
-> d) l
+> d) l　(✅)
 
 ***
 #### Question 11
@@ -134,7 +136,7 @@ public static void main(String[] args){
 
 > c) Type Mismatch error
 
-> d) -123
+> d) -128 ✅
 
 ***
 #### Question 12
@@ -153,7 +155,7 @@ public static void main(String[] args){
 }
 ```
 
-> a) Compile time error
+> a) Compile time error　✅
 
 > b) 
 > 10.128952248
@@ -180,7 +182,7 @@ What is Precision of float type variable?
 
 > c) 16 decimals
 
-> d) 7 decimals
+> d) 7 decimals　✅
 
 ***
 #### Question 14
@@ -198,7 +200,7 @@ Identify the data type with the following sentences:
 
 > c) int
 
-> d) String
+> d) String　✅
 
 ***
 #### Question 15
@@ -206,15 +208,15 @@ In Java, boolean datatype can be represented by 1 or 0.
 
 > True
 
-> False
+> False　✅
 
 ***
 #### Question 16
 How to cast 64-bit datatype into 32-bit datatype?
 
-> a) Implicit Typecasting
+> a) Implicit Typecasting　
 
-> b) Explicit Typecasting
+> b) Explicit Typecasting　✅
 
 > c) Widening Typecasting
 
@@ -228,7 +230,7 @@ In implicit Typecasting, what is the correct sequence of data type compatibility
 
 > c) byte-> long >int->short-> float->double
 
-> d) byte->short->int>long->float->double
+> d) byte->short->int>long->float->double　✅
 
 ***
 #### Question 18
@@ -244,13 +246,13 @@ In Java, we can create BigDecimal objects of which of the following types?
 
 > e) double
 
-> f) All of the above
+> f) All of the above ✅
 
 ***
 #### Question 19
 The floating-point data types are used for calculating accurate precise values in a financial calculation.
 
-> True
+> True ✅
 
 > False
 
@@ -262,7 +264,7 @@ BigDecimal is a part of which Java package?
 
 > b) java.lang
 
-> c) java.math
+> c) java.math ✅
 
 > d) java.io
 
@@ -277,5 +279,10 @@ Create 3 variables whereby...
 variable a --> int a = any integer number
 variable b --> float b = any decimal number
 variable value --> datatype?? = a² + 2ab + b²
+
+        int a = 3;
+        float b = 2.54325F;
+        double val = Math.pow(a, 2) + 2 * a * b + Math.pow(b, 2);
+        System.out.println(val); //30.727621492916114
 ```
 
